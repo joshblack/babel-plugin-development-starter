@@ -1,5 +1,5 @@
 export default ({ Plugin, types: t }) => {
-  return new Plugin('babel-plugin-functional-component-displayname', {
+  return new Plugin('babel-plugin-name', {
     visitor: {
       Program: {
         exit() {
